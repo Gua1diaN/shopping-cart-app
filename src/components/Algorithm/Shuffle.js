@@ -54,10 +54,10 @@ const Shuffle = () => {
                 spacing={3}
             >
                 <Grid item>
-                    Input Array: {inputArray.join(",")}
+                  <Button variant="contained" color="primary" onClick={addHandler}>Add</Button>
                 </Grid>
                 <Grid item>
-                  <Button variant="contained" color="primary" onClick={addHandler}>Add</Button>
+                    Input Array: {inputArray.join(",")}
                 </Grid>
                 <Divider />
                 <Grid item>
